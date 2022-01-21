@@ -1,0 +1,46 @@
+// base
+@import "./base/reset";
+@import "./base/customize";
+
+// component
+@import "./component/button";
+@import "./component/formInput";
+@import "./component/main-title-detail";
+@import "./component/modal";
+@import "./component/movieThumbnail";
+@import "./component/playContainer";
+@import "./component/preload";
+@import "./component/tabs";
+
+// helper
+@import "./helper/extend";
+@import "./helper/mixin";
+@import "./helper/variables";
+
+// layout
+@import "./layout/ads";
+@import "./layout/carousel";
+@import "./layout/confirm";
+@import "./layout/detailShowList";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/main-wrapper";
+@import "./layout/mobile-main-title";
+@import "./layout/modalLogin";
+@import "./layout/movie-main";
+@import "./layout/newsblock";
+@import "./layout/pay";
+@import "./layout/process";
+@import "./layout/search";
+@import "./layout/seatsection";
+@import "./layout/showtime";
+@import "./layout/theater";
+
+// pages
+@import "./pages/booking";
+@import "./pages/detail";
+
+// vendor
+@import "./vendor/bootstrap";
+@import "./vendor/slick";
