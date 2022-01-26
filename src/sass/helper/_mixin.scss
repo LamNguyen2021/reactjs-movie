@@ -1,0 +1,38 @@
+@mixin displayFlex($justify, $align, $direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin positionAbsolute(
+  $top: false,
+  $left: false,
+  $bottom: false,
+  $right: false
+) {
+  position: absolute;
+  @if ($top) {
+    top: $top;
+  }
+  @if ($left) {
+    left: $left;
+  }
+  @if ($bottom) {
+    bottom: $bottom;
+  }
+  @if ($right) {
+    right: $right;
+  }
+}
+
+@mixin styleText($textColor, $fontSize) {
+  color: $textColor;
+  font-size: $fontSize;
+}
+
+@mixin roundElement($width, $height, $radius) {
+  width: $width;
+  height: $height;
+  border-radius: $radius;
+}
