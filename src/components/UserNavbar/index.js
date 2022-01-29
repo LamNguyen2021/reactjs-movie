@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "../../images/logo.png";
 import MainNav from "./MainNav";
 import UnLoggedUI from "./UnLoggedUI";
+
+const logo = "/images/logo.png";
 
 function UserNavbar(props) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../../images/avatar.png";
+const avatar = "/images/avatar.png";
 
 function UnLoggedUI(props) {
   const { customClass } = props;
