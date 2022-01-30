@@ -1,4 +1,5 @@
 import Carousel from "./components/Carousel";
+import Search from "./components/Search";
 import UserNavbar from "./components/UserNavbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <UserNavbar />
       <Carousel />
+      <Search />
     </>
   );
 }

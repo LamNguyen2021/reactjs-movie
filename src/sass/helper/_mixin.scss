@@ -36,3 +36,10 @@
   height: $height;
   border-radius: $radius;
 }
+
+@mixin styleButton($bgColor, $borderColor, $pd-y, $pd-x, $radius) {
+  background: $bgColor;
+  border: 1px solid $borderColor;
+  padding: $pd-y $pd-x;
+  border-radius: $radius;
+}
